@@ -14,8 +14,8 @@ class Personaje:
 nombres = ["Lio Messi", "Mauricio Macri", "Mirtha Legrand"]
 edades = [35, 63, 95]
 ocupaciones = ["futbolista", "Político", "Conductor/a de TV"]
-datos_objetos = zip(nombres, edades, ocupaciones)
-print(datos_objetos)
+datos_objetos = list(zip(nombres, edades, ocupaciones))
+for i in range(0,len(datos_objetos)): print(datos_objetos[i])
 print("datos para jugar\n"
 	  "nombres: ", nombres,"\n"
 	  "edades: ",  edades,"\n"
@@ -30,7 +30,7 @@ personajes = [personaje1, personaje2, personaje3]	# lista de objetos personaje
 print("piense en un personaje...")
 
 edad = int(input("¿Qué edad tiene? (copiar y pegar)\n"))
-ocupacion = input("¿Cuál es su ocupación? (copiar y pegar)")
+ocupacion = input("¿Cuál es su ocupación? (copiar y pegar)\n")
 
 '''
 if personaje1.edad == edad and personaje1.ocupacion == ocupacion:
