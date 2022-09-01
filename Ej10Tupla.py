@@ -31,7 +31,7 @@ while minutos > 60:
     minutos = minutos - 60
     horas = horas + 1
 
-# hacer con resto
+# hacer con resto (DIV % y //)
 
 if minutos > 15:
     horas = horas + 1
