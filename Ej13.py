@@ -15,17 +15,29 @@ nombres = ["Lio Messi", "Mauricio Macri", "Mirtha Legrand"]
 edades = [35, 63, 95]
 ocupaciones = ["futbolista", "Político", "Conductor/a de TV"]
 datos_objetos = list(zip(nombres, edades, ocupaciones))
+# print(datos_objetos)  #para ver lista de tuplas
+print("datos para jugar:")
 for i in range(0,len(datos_objetos)): print(datos_objetos[i])
-print("datos para jugar\n"
-	  "nombres: ", nombres,"\n"
-	  "edades: ",  edades,"\n"
-	  "ocupaciones", ocupaciones,"\n")
 
-# ver como poner esto en un while con nombramiento dinámico, ej "personaje{}".format(i+1) = Personaje(personajes[0]). Hacer antes input edad
+personajes = []
+for i in range(0, len(datos_objetos)):
+    datos_personaje = datos_objetos[i]
+    nombre, edad, ocupacion = datos_personaje
+    print("personaje procesado: ", nombre)
+    personaje = Personaje(nombre, edad, ocupacion)
+    personajes.append(personaje.nombre)
+    ##tambien vale insert en vez de append:
+    #personajes.insert(-1, personaje.nombre)
+    print("lista actual de personajes: ", personajes)
+print("lista total de personajes: ", personajes)
+
+'''
+## también funciona, más simple:
 personaje1 = Personaje(nombres[0], edades[0], ocupaciones[0])
 personaje2 = Personaje(nombres[1], edades[1], ocupaciones[1])
 personaje3 = Personaje(nombres[2], edades[2], ocupaciones[2])
 personajes = [personaje1, personaje2, personaje3]	# lista de objetos personaje
+'''
 
 print("piense en un personaje...")
 
@@ -33,6 +45,7 @@ edad = int(input("¿Qué edad tiene? (copiar y pegar)\n"))
 ocupacion = input("¿Cuál es su ocupación? (copiar y pegar)\n")
 
 '''
+también funciona, más simple
 if personaje1.edad == edad and personaje1.ocupacion == ocupacion:
 	print("¿Ud. está pensando en {}?".format(personaje1.nombre))
 elif personaje2.edad == edad and personaje2.ocupacion == ocupacion:
