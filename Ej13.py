@@ -16,8 +16,8 @@ edades = [35, 63, 95]
 ocupaciones ["futbolista", "Político", "Conductor/a de TV"]
 # ver como usar zip
 print("datos para jugar\n"
-	  "nombres: ", nombres,
-	  "edades: ",  edades,
+	  "nombres: ", nombres,"\n"
+	  "edades: ",  edades,"\n"
 	  "ocupaciones", ocupaciones,"\n")
 
 # ver como poner esto en un while con nombramiento dinámico, ej "personaje{}".format(i+1) = Personaje(personajes[0]). Hacer antes input edad
