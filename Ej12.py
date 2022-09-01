@@ -16,7 +16,7 @@ i = 0
 t_salida = time.time()
 while i < 4:
 	print("viajando")
-	sleep(1)
+	time.sleep(1)
 	i = i + 1
 t_llegada = time.time()
 t_transcurrido = t_llegada - t_salida
