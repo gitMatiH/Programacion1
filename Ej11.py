@@ -12,9 +12,10 @@ precio_minuto_local			= float(0.25)
 precio_minuto_interurbano	= float(0.40)
 precio_minuto_internacional	= float(1.05)
 
-codigo = input("1: Local\n"
+codigo = input("Códigos de llamadas:\n"
+			   "1: Local\n"
 			   "2: Interurbana\n"
-			   "3: Internacional\n"
+			   "3: Internacional\n\n"
 			   "Ingrese código: ")
 
 duracion = input("Ingrese duración de la llamada en minutos: ")
