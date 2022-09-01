@@ -26,6 +26,8 @@ km_actual = int(input("Ingrese el kilometraje que indica el odómetro: "))
 
 km_recorridos = km_actual - km_inicial
 
+print("Ud. recorrió {} kilómetros.".format(km_recorridos))
+
 if km_recorridos <= 100:
 	print("Paciencia, falta mucho")
 elif 100 < km_recorridos and km_recorridos <= 200:
