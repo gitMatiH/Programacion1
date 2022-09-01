@@ -38,10 +38,9 @@ ocupacion = input("¿Cuál es su ocupación? (copiar y pegar)\n")
 
 presencia = False
 for personaje in personajes:
-	if personaje.edad == edad and personaje.ocupacion == ocupacion:
-		print("¿Ud. está pensando en {}?".format(personaje.nombre))
+    if personaje.edad == edad and personaje.ocupacion == ocupacion:
+        print("¿Ud. está pensando en {}?".format(personaje.nombre))
         presencia = True
-		break
-
+        break
 if presencia == False:
     print("No se me ocurre nada")
