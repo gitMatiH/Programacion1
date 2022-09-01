@@ -25,15 +25,3 @@ if minutos > 15:
     horas = horas + 1
     importe = horas * valorHora
     print("importe:", importe)
-
-# Version con tupla
-## ver de hacer pasaje tupla (horas,minutos) a integer minutos
-#python program to take tuple input in python
-values = input('Ingresar tupla de valores (hora,dia), separado por espacio:')
-#spliting the input values by space
-input_tuple = tuple(int(val) for val in values.split())
-print('tuple:',input_tuple)
-
-
-
-
