@@ -8,3 +8,7 @@ $0.40 para la llamada interurbana y $1.05 para la llamada internacional, diseña
 algoritmo que permita calcular el monto a pagar por dicha llamada.
 '''
 
+codigo = int(input("1: Local\n"
+				   "2: Interurbana\n"
+				   "3: Internacional\n"
+				   "Ingrese código: "))
