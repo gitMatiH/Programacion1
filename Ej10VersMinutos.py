@@ -8,7 +8,7 @@ El mínimo a cobrar es de una hora.
 valorHora = 45
 minHora = 1
 
-minutos = int(input("ingrese cuantos minutos estuvo estacionado: "))
+minutos = int(input("ingrese cuántos minutos estuvo estacionado: "))
 
 horas = 0
 
