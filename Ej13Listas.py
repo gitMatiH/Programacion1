@@ -24,6 +24,6 @@ for personaje in personajes:
 		print("¿Ud. está pensando en {}?".format(personajes[i][0]))
 		break
 	i = i + 1
-	
-if i == len(personajes)-1:
+
+if i == len(personajes):
 	print("No se me ocurre nada")
