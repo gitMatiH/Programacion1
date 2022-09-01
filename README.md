@@ -1,2 +1,2 @@
 # IntroProg
-Repositorio de ejercicios en python del curso Introducción a la programación (UP)
+Repositorio de ejercicios en python del curso Introducción a la Programación (UP)
