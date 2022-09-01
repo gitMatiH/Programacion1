@@ -26,12 +26,13 @@ print("piense en un personaje...")
 edad = int(input("¿Qué edad tiene? (copiar y pegar)\n"))
 ocupacion = input("¿Cuál es su ocupación? (copiar y pegar)\n")
 
-
-if personaje1.edad == edad and personaje1.ocupacion == ocupacion:
-	print("¿Ud. está pensando en {}?".format(personaje1.nombre))
-elif personaje2.edad == edad and personaje2.ocupacion == ocupacion:
-	print("¿Ud. está pensando en {}?".format(personaje2.nombre))
-elif personaje3.edad == edad and personaje3.ocupacion == ocupacion:
-	print("¿Ud. está pensando en {}?".format(personaje3.nombre))
-else:
+# alternativa
+i = 0
+for personaje in personajes:
+	if personaje[i][1] == edad and personaje[i][2] == ocupacion:
+		print("¿Ud. está pensando en {}?".format(personaje[i][0]))
+		break
+	i = i + 1
+	
+if i == len(personajes):
 	print("No se me ocurre nada")
