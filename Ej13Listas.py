@@ -13,20 +13,11 @@ personajes = list(zip(nombres, edades, ocupaciones))
 print("datos para jugar:")
 for i in range(0,len(personajes)): print(personajes[i])
 
-'''
-## también funciona, más simple:
-personaje1 = Personaje(nombres[0], edades[0], ocupaciones[0])
-personaje2 = Personaje(nombres[1], edades[1], ocupaciones[1])
-personaje3 = Personaje(nombres[2], edades[2], ocupaciones[2])
-personajes = [personaje1, personaje2, personaje3]	# lista de objetos personaje
-'''
-
 print("piense en un personaje...")
 
 edad = int(input("¿Qué edad tiene? (copiar y pegar)\n"))
 ocupacion = input("¿Cuál es su ocupación? (copiar y pegar)\n")
 
-# alternativa
 i = 0
 for personaje in personajes:
 	if personaje[i][1] == edad and personaje[i][2] == ocupacion:
