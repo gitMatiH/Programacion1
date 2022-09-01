@@ -20,10 +20,10 @@ ocupacion = input("¿Cuál es su ocupación? (copiar y pegar)\n")
 
 i = 0
 for personaje in personajes:
-	if personaje[i][1] == edad and personaje[i][2] == ocupacion:
-		print("¿Ud. está pensando en {}?".format(personaje[i][0]))
+	if personajes[i][1] == edad and personajes[i][2] == ocupacion:
+		print("¿Ud. está pensando en {}?".format(personajes[i][0]))
 		break
 	i = i + 1
 	
-if i == len(personajes):
+if i == len(personajes-1):
 	print("No se me ocurre nada")
