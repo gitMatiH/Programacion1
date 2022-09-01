@@ -12,6 +12,9 @@ def invertir_int(num):
 		num_inv = resto * (10**i)
 		num = num // 10
 		i = i + 1
+	resto = num % 10
+	num_inv = resto * (10**i)
+	#ver carpeta intro info
 	return int(num_inv)
 
 '''
