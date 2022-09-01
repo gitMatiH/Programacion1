@@ -1,10 +1,13 @@
-# edad = int(input("Ingrese edad"))
+'''
+Ingresar el valor de la ganancia anual de una empresa y calcular su retención según
+se encuentre dentro de los siguientes parámetros:
 
-# if edad >= 8 and edad <= 12:
-#     pass
-# else:   #tiene menos de ocho o más de doce
-#     pass
-
+    Ganancia            |   Retención
+    ______________________________________________________
+    <= 10000            |   Cero
+    >10000 y <= 15000   |   2% sobre (ganancia -10000)
+    > 150000            |   300+5% sobre (ganancia -15000)
+'''
 
 print("Calcula la retención en base a ganancias.")
 
