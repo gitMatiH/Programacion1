@@ -31,3 +31,11 @@ print("piense en un personaje...")
 edad = int(input("¿Qué edad tiene? (copiar y pegar)\n"))
 ocupacion = input("¿Cuál es su ocupación? (copiar y pegar)")
 #combinatoria
+if personaje1.edad == edad and personaje1.ocupacion == ocupación:
+	print("¿Ud. está pensando en {}?".format(personaje1))
+elif personaje2.edad == edad and personaje2.ocupacion == ocupación:
+	print("¿Ud. está pensando en {}?".format(personaje2))
+elif personaje3.edad == edad and personaje3.ocupacion == ocupación:
+	print("¿Ud. está pensando en {}?".format(personaje3))
+else:
+	print("No se me ocurre nada")
