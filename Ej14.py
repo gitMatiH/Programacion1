@@ -27,14 +27,14 @@ mytxt = my_function("I wonder how this text looks like backwards")
 print(mytxt)
 '''
 
-numero = int(input("Ingrese un número de dos cifras"))
+numero = int(input("Ingrese un número de dos cifras: "))
 while len(str(numero)) != 2 and 9 < numero: 
 	print("Errror")
-	numero = int(input("Ingrese un número de dos cifras"))
+	numero = int(input("Ingrese un número de dos cifras: "))
 
 if 50 < numero:
-	numero_invertido = invertir(numero)
-	print("numero invertido: ", numero_invertido)
+	numero_invertido = invertir_int(numero)
+	print("Número invertido: ", numero_invertido)
 elif numero <= 50:
-	print("cifra de las unidades: ", numero%10)
+	print("Cifra de las unidades: ", numero%10)
 	
