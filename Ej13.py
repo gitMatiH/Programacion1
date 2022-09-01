@@ -24,18 +24,28 @@ print("datos para jugar\n"
 personaje1 = Personaje(nombres[0], edades[0], ocupaciones[0])
 personaje2 = Personaje(nombres[1], edades[1], ocupaciones[1])
 personaje3 = Personaje(nombres[2], edades[2], ocupaciones[2])
-
+personajes = [personaje1, personaje2, personaje3]	# lista de objetos personaje
 
 print("piense en un personaje...")
 
 edad = int(input("¿Qué edad tiene? (copiar y pegar)\n"))
 ocupacion = input("¿Cuál es su ocupación? (copiar y pegar)")
-#combinatoria
-if personaje1.edad == edad and personaje1.ocupacion == ocupación:
-	print("¿Ud. está pensando en {}?".format(personaje1))
-elif personaje2.edad == edad and personaje2.ocupacion == ocupación:
-	print("¿Ud. está pensando en {}?".format(personaje2))
-elif personaje3.edad == edad and personaje3.ocupacion == ocupación:
-	print("¿Ud. está pensando en {}?".format(personaje3))
+
+'''
+if personaje1.edad == edad and personaje1.ocupacion == ocupacion:
+	print("¿Ud. está pensando en {}?".format(personaje1.nombre))
+elif personaje2.edad == edad and personaje2.ocupacion == ocupacion:
+	print("¿Ud. está pensando en {}?".format(personaje2.nombre))
+elif personaje3.edad == edad and personaje3.ocupacion == ocupacion:
+	print("¿Ud. está pensando en {}?".format(personaje3.nombre))
 else:
 	print("No se me ocurre nada")
+'''
+
+# alternativa
+for personaje in personajes:
+	if personaje.edad == edad and personaje.ocupacion == ocupacion:
+		print("¿Ud. está pensando en {}?".format(personaje.nombre))
+		break
+	else:
+		print("No se me ocurre nada")
