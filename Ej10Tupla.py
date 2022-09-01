@@ -10,7 +10,7 @@ El mínimo a cobrar es de una hora.
 # Toma valores por tuplas
 valores = input('Ingresar tupla de valores (horas, minutos), separado por espacio:')
 # Separa los valores del input por el caracter 'espacio' y forma una lista, luego pasa la información a tipo 'tupla'
-cronometro = tuple(int(val) for val in valores.split())
+cronometro = tuple( [] = valores.split() )
 print('Tupla de entrada:', cronometro)
 
 valorHora = 45
@@ -19,7 +19,7 @@ minHora = 1
 if int(cronometro[0]) < 1:
     print("Se cobra: ", minHora*valorHora)
 else:
-    if cronometro[1] > 15:
+    if int(cronometro[1]) > 15:
         horas = int(cronometro[0]) + 1
         importe = horas * valorHora
         print("importe:", importe)
