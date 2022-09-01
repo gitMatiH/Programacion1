@@ -17,9 +17,13 @@ codigo = input("1: Local\n"
 			   "3: Internacional\n"
 			   "Ingrese código: ")
 
+duracion = input("Ingrese duración de la llamada en minutos: ")
+
 if codigo == "1":
-	pass
+	monto = precio_minuto_local * int(duracion)
 elif codigo == "2":
-	pass
+	monto = precio_minuto_interurbano * int(duracion)
 elif codigo == "3":
-	pass
+	monto = precio_minuto_internacional * int(duracion)
+
+print("El costo de la llamada es: {} $".format(monto))
