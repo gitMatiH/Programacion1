@@ -25,9 +25,9 @@ for i in range(0, len(datos_objetos)):
     nombre, edad, ocupacion = datos_personaje
     print("personaje procesado: ", nombre)
     personaje = Personaje(nombre, edad, ocupacion)
-    personajes.append(personaje.nombre)
+    personajes.append(personaje)
     ##tambien vale insert en vez de append:
-    #personajes.insert(-1, personaje.nombre)
+    #personajes.insert(-1, personaje)
     print("lista actual de personajes: ", personajes)
 print("lista total de personajes: ", personajes)
 
