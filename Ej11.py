@@ -8,9 +8,9 @@ $0.40 para la llamada interurbana y $1.05 para la llamada internacional, diseña
 algoritmo que permita calcular el monto a pagar por dicha llamada.
 '''
 
-precio_local		= float(0.25)
-precio_interurbano	= float(0.40)
-precio_internacional	= float(1.05)
+precio_minuto_local		= float(0.25)
+precio_minuto_interurbano	= float(0.40)
+precio_minuto_internacional	= float(1.05)
 
 codigo = int(input("1: Local\n"
 				   "2: Interurbana\n"
