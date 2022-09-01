@@ -14,7 +14,7 @@ print("Calcula la retención en base a ganancias.")
 ganancias = int(input ("ingrese sus ganancias anuales:\n"))
 if ganancias <= 10000:
     print ("Retencion = cero")
-elif ganancias >10000 and ganancias <= 15000:   # con or estaría mal, podría pasar algo fuera de rango. Aunque el primero lo filtra (creo)
+elif 10000 < ganancias and ganancias <= 15000:
     retencion = (ganancias - 10000)*2/100
     print ("Retencion = ", retencion)
 else:   #usa la condición que queda por descarte, en este caso ganancias > 150000
