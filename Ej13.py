@@ -13,7 +13,7 @@ class Personaje:
 
 nombres = ["Lio Messi", "Mauricio Macri", "Mirtha Legrand"]
 edades = [35, 63, 95]
-ocupaciones ["futbolista", "Político", "Conductor\/a de TV"]
+ocupaciones = ["futbolista", "Político", "Conductor/a de TV"]
 datos_objetos = zip(nombres, edades, ocupaciones)
 print(datos_objetos)
 print("datos para jugar\n"
