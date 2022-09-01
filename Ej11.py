@@ -13,9 +13,9 @@ precio_minuto_interurbano	= float(0.40)
 precio_minuto_internacional	= float(1.05)
 
 codigo = input("1: Local\n"
-	       "2: Interurbana\n"
-	       "3: Internacional\n"
-	       "Ingrese código: ")
+			   "2: Interurbana\n"
+			   "3: Internacional\n"
+			   "Ingrese código: ")
 
 if codigo == "1":
 	pass
