@@ -4,18 +4,19 @@ mostrar la cifra que corresponde a las unidades.
 '''
 
 def invertir_int(num):
-	int(num)
-	i = 0
-	num_inv = 0
-	while num // 10 != 0:
-		resto = num % 10
-		num_inv = resto * (10**i)
-		num = num // 10
-		i = i + 1
-	resto = num % 10
-	num_inv = resto * (10**i)
+    digitos = len(str(num))
+    int(num)
+    i = 1
+    num_inv = 0
+    while num // 10 != 0:
+        resto = num % 10
+        num_inv = num_inv + resto * (10**(digitos-i))
+        num = num // 10
+        i = i + 1
+    resto = num % 10
+    num_inv = num_inv + resto * (10**(digitos-i))
 	#ver carpeta intro info
-	return int(num_inv)
+    return int(num_inv)
 
 '''
 def invertir_str(num):
@@ -23,7 +24,6 @@ def invertir_str(num):
 	while num // 10 != 0:
 		num_inv =
 	return num_inv
-
 def my_function(x):
 	return x[::-1]
 mytxt = my_function("I wonder how this text looks like backwards")
@@ -40,4 +40,3 @@ if 50 < numero:
 	print("Número invertido: ", numero_invertido)
 elif numero <= 50:
 	print("Cifra de las unidades: ", numero%10)
-	
