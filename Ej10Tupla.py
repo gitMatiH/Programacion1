@@ -8,7 +8,7 @@ El mínimo a cobrar es de una hora.
 '''
 
 # Toma valores por tuplas
-valores = input('Ingresar tupla de valores (horas, minutos), separado por espacio:')
+valores = input('Ingresar tupla de valores (horas, minutos), separado por espacio: ')
 cronometro = tuple(valores.split())     # Separa los valores del input por el caracter 'espacio' y forma una lista,
                                         # luego pasa la información a tipo 'tupla'
 
