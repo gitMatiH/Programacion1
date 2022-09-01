@@ -28,8 +28,8 @@ for i in range(0, len(datos_objetos)):
     personajes.append(personaje)
     ##tambien vale insert en vez de append:
     #personajes.insert(-1, personaje)
-    print("lista actual de personajes: ", personajes)
-print("lista total de personajes: ", personajes)
+    print("lista actual de personajes: ", for j in range(0, i): print(personajes[j].name))
+print("lista total de personajes: ", for i in range(0, len(personajes)): print(personajes[i].name))
 
 print("piense en un personaje...")
 
