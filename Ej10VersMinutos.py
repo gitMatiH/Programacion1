@@ -20,7 +20,7 @@ else:
     minutos = minutos % 60      # minutos restantes, actualiza la variable minutos
     
     '''
-    # cálculo alternativo estructura con while
+    # cálculo alternativo con estructura while
     while minutos >= 60:        # contamos las horas
         minutos = minutos - 60
         horas = horas + 1
