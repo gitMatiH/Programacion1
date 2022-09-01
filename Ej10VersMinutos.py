@@ -15,9 +15,16 @@ horas = 0
 if minutos < 60:
     print("Se cobra: ", minHora*valorHora)
 else:
-    while minutos >= 60: # contamos las horas con el while
+    
+    horas = minutos // 60       # total de horas
+    minutos = minutos % 60      # minutos restantes, actualiza la variable minutos
+    
+    '''
+    # cálculo alternativo estructura con while
+    while minutos >= 60:        # contamos las horas
         minutos = minutos - 60
         horas = horas + 1
+    '''
 
     if minutos > 15:
         horas = horas + 1
