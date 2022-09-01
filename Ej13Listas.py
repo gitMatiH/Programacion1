@@ -25,5 +25,5 @@ for personaje in personajes:
 		break
 	i = i + 1
 	
-if i == len(personajes-1):
+if i == len(personajes)-1:
 	print("No se me ocurre nada")
