@@ -13,3 +13,6 @@ https://www.youtube.com/playlist?list=PLQxX2eiEaqby-qh4raiKfYyb4T7WyHsfW
 
 GITHUB ACCESS TOKEN - Configuración PASO A PASO en Español 2021
 https://youtu.be/2nzOI-ynXF4
+
+Cómo instalar y usar python con entornos virtuales
+https://youtu.be/28eLP22SMTA
