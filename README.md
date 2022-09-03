@@ -1,4 +1,4 @@
-<h1>IntroProg</h1>
+﻿<h1>IntroProg</h1>
 <p>
 Repositorio de ejercicios en python del curso Introducción a la Programación (UP)
 </p>
@@ -24,4 +24,8 @@ https://youtu.be/28eLP22SMTA
 <p>
 7.14 Git Tools - Credential Storage
 https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage
+</p>
+<p>
+Automate the Boring Stuff with Python - By Al Sweigart
+https://automatetheboringstuff.com/
 </p>
