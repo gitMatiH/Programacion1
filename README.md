@@ -21,3 +21,7 @@ https://youtu.be/2nzOI-ynXF4
 Cómo instalar y usar python con entornos virtuales
 https://youtu.be/28eLP22SMTA
 </p>
+<p>
+7.14 Git Tools - Credential Storage
+https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage
+</p>
