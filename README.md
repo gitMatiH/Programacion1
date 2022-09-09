@@ -1,4 +1,4 @@
-﻿<h1>IntroProg</h1>
+<h1>IntroProg</h1>
 <p>
 Repositorio de ejercicios en python del curso Introducción a la Programación (UP)
 </p>
