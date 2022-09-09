@@ -24,6 +24,9 @@ Git Tools - Credential Storage
 https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage
 </p>
 
+<h2>Structuring Your Project | The Hitchhiker's Guide To Python</h2>
+<p>https://docs.python-guide.org/writing/structure/</p>
+
 <h2>Automate the Boring Stuff with Python - By Al Sweigart</h2>
 <p>https://automatetheboringstuff.com/</p>
 
