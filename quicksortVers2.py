@@ -1,4 +1,4 @@
-#Implementación Quicksort vers.2
+#Implementación Quicksort Vers.2
 
 def quicksort(l):
     def quicksortRec(l, i, j):
