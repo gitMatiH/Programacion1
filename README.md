@@ -23,10 +23,9 @@ https://youtu.be/28eLP22SMTA
 Git Tools - Credential Storage
 https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage
 </p>
-<p>
-Automate the Boring Stuff with Python - By Al Sweigart
-https://automatetheboringstuff.com/
-</p>
+
+<h2>Automate the Boring Stuff with Python - By Al Sweigart</h2>
+<p>https://automatetheboringstuff.com/</p>
 
 <h2>The Complete Python Course | Learn Python by Doing in 2022</h2>
 <p>https://www.udemy.com/course/the-complete-python-course</p>
