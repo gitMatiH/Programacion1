@@ -30,3 +30,8 @@ https://automatetheboringstuff.com/
 
 <h2>The Complete Python Course | Learn Python by Doing in 2022</h2>
 <p>https://www.udemy.com/course/the-complete-python-course</p>
+
+<h2>Recursion</h2>
+<p>https://www.udemy.com/course/learn-recursion</p>
+<h2>Time and space complexity analysis (big-O notation)</h2>
+<p>https://www.udemy.com/course/complexity-analysis</p>
