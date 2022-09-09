@@ -1,12 +1,15 @@
 #Implementación Quicksort
 
-##def quicksort(l):
+#def quicksort(l):
 def quicksortRec(l, i, j):
+    if len(l) == 1:
+        return l
     if i < j:
         k = particion(l, i, j)
         quicksortRec(l, i, k-1)
         quicksortRec(l, k+1, j)
-    quicksortRec(l, 0, len(l)-1)
+    #quicksortRec(l, 0, len(l)-1)
+    return l
 
 def particion(l, i, j):
     x = l[j]
@@ -22,16 +25,22 @@ def particion(l, i, j):
     l[j] = aux
     return k+1
 
-##l = list(input("ingrese una lista de enteros"))
+####test
+##l=[8,5,4,10,-1]
 ##print(l)
-##print(type(l))
-##while type(l)!= list():
-##    print("ingreso erróneo")
-##    l = input("ingrese una lista de enteros")
+##i=0
+##j=len(l)-1
+##quicksortRec(l, i, j)
+##print(l)
 
-l=[8,5,4,10,-1]
+l = [int(item) for item in input("ingrese una lista de enteros separados por comas: ").split(",")]
 print(l)
+#print(type(l))
+while type(l)!= list:
+    print("ingreso erróneo")
+    l = input("ingrese una lista de enteros")
+
 i=0
-j=len(l)
-quicksortRec(l,i,j)
+j=len(l)-1
+quicksortRec(l, i, j)
 print(l)
