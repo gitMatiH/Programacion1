@@ -1,4 +1,4 @@
-#Implementación Quicksort Vers1
+#Implementación Quicksort Vers.1
 
 def quicksort(l, i, j):
     if len(l) == 1:
