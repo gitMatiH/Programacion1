@@ -2,7 +2,7 @@
 <p>
 Repositorio de ejercicios en python del curso Introducción a la Programación (UP)
 </p>
-<h2>Buenos tutoriales para trabajar con repositorios Git</h2>
+<h2>Buenos Tutoriales Para Trabajar Con Repositorios Git</h2>
 <p>
 Git Basics - Getting a Git Repository
 https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository
