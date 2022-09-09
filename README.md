@@ -27,3 +27,6 @@ https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage
 Automate the Boring Stuff with Python - By Al Sweigart
 https://automatetheboringstuff.com/
 </p>
+
+<h2>The Complete Python Course | Learn Python by Doing in 2022</h2>
+<p>https://www.udemy.com/course/the-complete-python-course</p>
