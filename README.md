@@ -16,8 +16,8 @@ GITHUB ACCESS TOKEN - Configuración PASO A PASO en Español 2021 | TodoCode <br
 https://youtu.be/2nzOI-ynXF4 <br>
 </p>
 <p>
-Cómo instalar y usar python con entornos virtuales <br>
-https://youtu.be/28eLP22SMTA
+How to really install python - PATH, don't get this wrong | Python Programmer<br>
+https://www.youtube.com/watch?v=YKSpANU8jPE <br>
 </p>
 <p>
 Git Tools - Credential Storage <br>
@@ -47,8 +47,8 @@ https://www.youtube.com/watch?v=-nh9rCzPJ20
 <p>
 Python Tutorial: virtualenv and why you should use virtual environments | Corey Schafer <br>
 https://www.youtube.com/watch?v=N5vscPTWKOk <br>
-How to really install python - PATH, don't get this wrong | Python Programmer<br>
-https://www.youtube.com/watch?v=YKSpANU8jPE <br>
+Cómo instalar y usar python con entornos virtuales <br>
+https://youtu.be/28eLP22SMTA
 </p>
 
 <h2>Python Programming Tutorials | Tech With Tim</h2>
