@@ -36,7 +36,7 @@ Visual Studio Code (Windows) - Setting up a Python Development Environment and C
 https://www.youtube.com/watch?v=-nh9rCzPJ20
 </p>
 
-<h2>Instalar Python | Avanzado<h2>
+<h2>Instalar Python | Avanzado</h2>
 <p>
 Python Tutorial: virtualenv and why you should use virtual environments | Corey Schafer <br>
 https://www.youtube.com/watch?v=N5vscPTWKOk <br>
