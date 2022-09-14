@@ -65,11 +65,6 @@ https://www.youtube.com/playlist?list=PLzMcBGfZo4-mFu00qxl0a67RhjjZj3jXm
 <h2>The Complete Python Course | Learn Python by Doing in 2022 | Jose Salvatierra, Rob Percival</h2>
 <p>https://www.udemy.com/course/the-complete-python-course</p>
 
-<h2>Recursion</h2>
-<p>https://www.udemy.com/course/learn-recursion</p>
-<h2>Time and space complexity analysis (big-O notation)</h2>
-<p>https://www.udemy.com/course/complexity-analysis</p>
-
 <h2>Webs útiles</h2>
 <p>
 https://www.geeksforgeeks.org/ (general)<br>
@@ -81,3 +76,8 @@ https://visualgo.net/en (Otro de Visualización de Algoritmos)<br>
 https://www.programiz.com/python-programming/online-compiler/ (intérprete web del lenguaje Python)<br>
 https://www.programiz.com/c-programming/online-compiler/ (compilador web del lenguaje C)<br>
 </p>
+
+<h2>Recursion</h2>
+<p>https://www.udemy.com/course/learn-recursion</p>
+<h2>Time and space complexity analysis (big-O notation)</h2>
+<p>https://www.udemy.com/course/complexity-analysis</p>
