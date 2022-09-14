@@ -72,6 +72,7 @@ https://www.youtube.com/playlist?list=PLzMcBGfZo4-mFu00qxl0a67RhjjZj3jXm
 
 <h2>Webs útiles</h2>
 <p>
+https://visualgo.net/en <br>
 https://www.geeksforgeeks.org/ <br>
 https://realpython.com/ <br>
 https://docs.python-guide.org/ <br>
