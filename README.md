@@ -55,7 +55,7 @@ https://www.youtube.com/playlist?list=PLzMcBGfZo4-mFu00qxl0a67RhjjZj3jXm
 <h2>Automate the Boring Stuff with Python - By Al Sweigart</h2>
 <p>https://automatetheboringstuff.com/#toc</p>
 
-<h2>The Complete Python Course | Learn Python by Doing in 2022</h2>
+<h2>The Complete Python Course | Learn Python by Doing in 2022 | Jose Salvatierra, Rob Percival</h2>
 <p>https://www.udemy.com/course/the-complete-python-course</p>
 
 <h2>Recursion</h2>
