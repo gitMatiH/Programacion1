@@ -24,6 +24,26 @@ Git Tools - Credential Storage
 https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage
 </p>
 
+<h2>Instalar Python | Básico</h2>
+<p>
+Python Tutorial for Beginners 1: Install and Setup for Mac and Windows | Corey Schafer <br>
+https://www.youtube.com/watch?v=YYXdXT2l-Gg <br>
+What is Python IDLE and How to Use the IDLE Shell | Real Python <br>
+https://www.youtube.com/watch?v=WIlQukiXs-E <br>
+Python Tutorial: pip - An in-depth look at the package management system | Corey Schafer <br>
+https://www.youtube.com/watch?v=U2ZN104hIcc <br>
+Visual Studio Code (Windows) - Setting up a Python Development Environment and Complete Overview | Corey Schafer <br>
+https://www.youtube.com/watch?v=-nh9rCzPJ20
+</p>
+
+<h2>Instalar Python | Avanzado<h2>
+<p>
+Python Tutorial: virtualenv and why you should use virtual environments | Corey Schafer <br>
+https://www.youtube.com/watch?v=N5vscPTWKOk <br>
+How to really install python - PATH, don't get this wrong | Python Programmer<br>
+https://www.youtube.com/watch?v=YKSpANU8jPE <br>
+</p>
+
 <h2>Structuring Your Project | The Hitchhiker's Guide To Python</h2>
 <p>https://docs.python-guide.org/writing/structure/</p>
 
