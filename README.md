@@ -69,3 +69,9 @@ https://www.youtube.com/playlist?list=PLzMcBGfZo4-mFu00qxl0a67RhjjZj3jXm
 <p>https://www.udemy.com/course/learn-recursion</p>
 <h2>Time and space complexity analysis (big-O notation)</h2>
 <p>https://www.udemy.com/course/complexity-analysis</p>
+
+<h2>Webs útiles</h2>
+<p>
+https://www.geeksforgeeks.org/ <br>
+https://realpython.com/ <br>
+</p>
