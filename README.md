@@ -16,10 +16,6 @@ GITHUB ACCESS TOKEN - Configuración PASO A PASO en Español 2021 | TodoCode <br
 https://youtu.be/2nzOI-ynXF4 <br>
 </p>
 <p>
-How to really install python - PATH, don't get this wrong | Python Programmer<br>
-https://www.youtube.com/watch?v=YKSpANU8jPE <br>
-</p>
-<p>
 Git Tools - Credential Storage <br>
 https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage
 </p>
@@ -35,6 +31,8 @@ https://cli.github.com/manual/gh_repo_create <br>
 <p>
 Python Tutorial for Beginners 1: Install and Setup for Mac and Windows | Corey Schafer <br>
 https://www.youtube.com/watch?v=YYXdXT2l-Gg <br>
+How to really install python - PATH, don't get this wrong | Python Programmer<br>
+https://www.youtube.com/watch?v=YKSpANU8jPE <br>
 What is Python IDLE and How to Use the IDLE Shell | Real Python <br>
 https://www.youtube.com/watch?v=WIlQukiXs-E <br>
 Python Tutorial: pip - An in-depth look at the package management system | Corey Schafer <br>
