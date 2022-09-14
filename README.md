@@ -45,7 +45,7 @@ https://www.youtube.com/watch?v=-nh9rCzPJ20
 <p>
 Python Tutorial: virtualenv and why you should use virtual environments | Corey Schafer <br>
 https://www.youtube.com/watch?v=N5vscPTWKOk <br>
-Cómo instalar y usar python con entornos virtuales <br>
+Cómo instalar y usar python con entornos virtuales | Python Programmer<br>
 https://youtu.be/28eLP22SMTA
 </p>
 
