@@ -72,12 +72,12 @@ https://www.youtube.com/playlist?list=PLzMcBGfZo4-mFu00qxl0a67RhjjZj3jXm
 
 <h2>Webs útiles</h2>
 <p>
-https://www.geeksforgeeks.org/ <br>
-https://realpython.com/ <br>
-https://docs.python-guide.org/ <br>
-https://www.w3schools.com/python/default.asp <br>
-https://algorithm-visualizer.org/ <br>
-https://visualgo.net/en <br>
-https://www.programiz.com/python-programming/online-compiler/ <br>
-https://www.programiz.com/c-programming/online-compiler/ <br>
+https://www.geeksforgeeks.org/ (general)<br>
+https://realpython.com/ (particular Python)<br>
+https://docs.python-guide.org/ (guía Python en forma de libro)<br>
+https://www.w3schools.com/python/default.asp (Python interactivo)<br>
+https://algorithm-visualizer.org/ (Visualización de Algoritmos)<br>
+https://visualgo.net/en (Otro de Visualización de Algoritmos)<br>
+https://www.programiz.com/python-programming/online-compiler/ (intérprete web del lenguaje Python)<br>
+https://www.programiz.com/c-programming/online-compiler/ (compilador web del lenguaje C)<br>
 </p>
