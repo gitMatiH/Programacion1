@@ -72,12 +72,12 @@ https://www.youtube.com/playlist?list=PLzMcBGfZo4-mFu00qxl0a67RhjjZj3jXm
 
 <h2>Webs útiles</h2>
 <p>
-https://algorithm-visualizer.org/ <br>
-https://visualgo.net/en <br>
 https://www.geeksforgeeks.org/ <br>
 https://realpython.com/ <br>
 https://docs.python-guide.org/ <br>
 https://www.w3schools.com/python/default.asp <br>
+https://algorithm-visualizer.org/ <br>
+https://visualgo.net/en <br>
 https://www.programiz.com/python-programming/online-compiler/ <br>
 https://www.programiz.com/c-programming/online-compiler/ <br>
 </p>
