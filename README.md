@@ -75,6 +75,6 @@ https://www.youtube.com/playlist?list=PLzMcBGfZo4-mFu00qxl0a67RhjjZj3jXm
 https://www.geeksforgeeks.org/ <br>
 https://realpython.com/ <br>
 https://docs.python-guide.org/ <br>
- <br>
+https://www.w3schools.com/python/default.asp <br>
  <br>
 </p>
