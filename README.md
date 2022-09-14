@@ -52,7 +52,7 @@ https://www.youtube.com/playlist?list=PLzMcBGfZo4-mFu00qxl0a67RhjjZj3jXm
 <h2>Structuring Your Project | The Hitchhiker's Guide To Python</h2>
 <p>https://docs.python-guide.org/writing/structure/</p>
 
-<h2>Automate the Boring Stuff with Python - By Al Sweigart</h2>
+<h2>Automate the Boring Stuff with Python | Al Sweigart</h2>
 <p>https://automatetheboringstuff.com/#toc</p>
 
 <h2>The Complete Python Course | Learn Python by Doing in 2022 | Jose Salvatierra, Rob Percival</h2>
