@@ -44,6 +44,11 @@ How to really install python - PATH, don't get this wrong | Python Programmer<br
 https://www.youtube.com/watch?v=YKSpANU8jPE <br>
 </p>
 
+<h2>Python Programming Tutorials | Tech With Tim</h2>
+<p>
+https://www.youtube.com/playlist?list=PLzMcBGfZo4-mFu00qxl0a67RhjjZj3jXm
+</p>
+
 <h2>Structuring Your Project | The Hitchhiker's Guide To Python</h2>
 <p>https://docs.python-guide.org/writing/structure/</p>
 
