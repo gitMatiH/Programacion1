@@ -84,7 +84,7 @@ https://www.programiz.com/c-programming/online-compiler/ (compilador web del len
 <p>https://www.udemy.com/course/complexity-analysis</p>
 
 <h2>Varios</h2>
-Foundations of Computer Science | Alfred Aho, Jeffrey Ullman<br>
+Foundations of Computer Science (C version) | Alfred Aho, Jeffrey Ullman<br>
 http://infolab.stanford.edu/~ullman/focs.html<br>
 Practical Algorithms and Data Structures<br>
 https://bradfieldcs.com/algos/<br>
