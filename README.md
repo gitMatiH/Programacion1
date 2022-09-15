@@ -97,5 +97,5 @@ https://introcs.cs.princeton.edu/java/home/<br>
 https://aofa.cs.princeton.edu/home/<br>
 Foundations of Computer Science (C version) | Alfred Aho, Jeffrey Ullman<br>
 http://infolab.stanford.edu/~ullman/focs.html<br>
-Structure and Interpretation of Computer Programs | Harold Abelson and Gerald Sussman | Interactive Version<br>
+Structure and Interpretation of Computer Programs | Harold Abelson, Gerald Sussman | Interactive Version<br>
 https://xuanji.appspot.com/isicp/index.html<br>
