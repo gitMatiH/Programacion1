@@ -78,7 +78,7 @@ https://www.programiz.com/python-programming/online-compiler/ (intérprete web d
 https://www.programiz.com/c-programming/online-compiler/ (compilador web del lenguaje C)<br>
 </p>
 
-<h2>Recursion</h2>
+<h2>Recursion | Inside Code</h2>
 <p>https://www.udemy.com/course/learn-recursion</p>
 <h2>Time and space complexity analysis (big-O notation) | Inside Code</h2>
 <p>https://www.udemy.com/course/complexity-analysis</p>
