@@ -91,3 +91,5 @@ https://introcs.cs.princeton.edu/python/home/<br>
 https://algs4.cs.princeton.edu/home/<br>
 https://introcs.cs.princeton.edu/java/home/<br>
 https://aofa.cs.princeton.edu/home/<br>
+Structure and Interpretation of Computer Programs | Interactive Version<br>
+https://xuanji.appspot.com/isicp/index.html<br>
