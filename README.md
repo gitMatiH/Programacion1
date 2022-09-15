@@ -84,6 +84,7 @@ https://www.programiz.com/c-programming/online-compiler/ (compilador web del len
 <p>https://www.udemy.com/course/complexity-analysis</p>
 
 <h2>Varios</h2>
+http://infolab.stanford.edu/~ullman/focs.html<br>
 https://bradfieldcs.com/algos/<br>
 https://ondrej-kvasnovsky-2.gitbook.io/algorithms<br>
 https://introcs.cs.princeton.edu/python/home/<br>
