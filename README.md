@@ -85,3 +85,8 @@ https://www.programiz.com/c-programming/online-compiler/ (compilador web del len
 
 <h2>Varios</h2>
 https://bradfieldcs.com/algos/
+https://ondrej-kvasnovsky-2.gitbook.io/algorithms
+https://introcs.cs.princeton.edu/python/home/
+https://algs4.cs.princeton.edu/home/
+https://introcs.cs.princeton.edu/java/home/
+https://aofa.cs.princeton.edu/home/
