@@ -86,7 +86,9 @@ https://www.programiz.com/c-programming/online-compiler/ (compilador web del len
 <h2>Varios</h2>
 Foundations of Computer Science | Alfred Aho, Jeffrey Ullman<br>
 http://infolab.stanford.edu/~ullman/focs.html<br>
+Practical Algorithms and Data Structures
 https://bradfieldcs.com/algos/<br>
+
 https://ondrej-kvasnovsky-2.gitbook.io/algorithms<br>
 https://introcs.cs.princeton.edu/python/home/<br>
 https://algs4.cs.princeton.edu/home/<br>
