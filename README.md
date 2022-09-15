@@ -90,9 +90,9 @@ Practical Algorithms and Data Structures<br>
 https://bradfieldcs.com/algos/<br>
 Learn DS & Algorithms | programiz | libro web<br>
 https://www.programiz.com/dsa<br>
-Handbook Algorithms<br>
+Handbook of Algorithms | Ondrej Kvasnovsky<br>
 https://ondrej-kvasnovsky-2.gitbook.io/algorithms<br>
-Sedgewick, Wayne<br>
+Algorithms | Sedgewick, Wayne<br>
 https://introcs.cs.princeton.edu/python/home/<br>
 https://algs4.cs.princeton.edu/home/<br>
 https://introcs.cs.princeton.edu/java/home/<br>
