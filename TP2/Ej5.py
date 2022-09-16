@@ -1,4 +1,7 @@
-
+'''
+5) Leer el número de mes y mostrar cuantos
+días tiene ese mes (año actual).
+'''
 ## Ver carpeta
 
 diasMes = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]

@@ -1,4 +1,15 @@
 #Ej4
+'''
+Al terminar un día en un colegio secundario se hace una estadística de faltas
+sabiendo de cada curso:
+-Curso(1-5)
+-Presentes
+-Ausentes
+Calcular:
+-Por cada curso el porcentaje de presentes sobre el total
+-Cantidad de ausentes en el colegio
+-Curso con mayor cantidad de ausentes
+'''
 
 # Sabemos, o sea tenemos como datos:
 # Números de cursos son los elementos iésimos de las listas

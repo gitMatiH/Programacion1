@@ -1,4 +1,8 @@
-
+'''
+Diseñar un algoritmo que permita:
+3) Ingresar números hasta que el
+último sea cero. Calcular la cantidad de positivos.
+'''
 
 contador = 0
 num = int(input("Ingresar número: "))

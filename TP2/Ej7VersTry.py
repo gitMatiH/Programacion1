@@ -1,3 +1,11 @@
+'''
+Se ingresa descripcion y gasto de los gastos mensuales de comercio.
+El ingreso finaliza cuando se ingresa gasto 0.
+a) Necesitamos encontrar: el total de gastos, el mayor gasto efectuado
+y su descripcion, el menor gasto efectuado y su descripcion
+El promedio de gastos efectuados en el mes.
+b) Cuantos gastos ocurrieron que fueran igual al mayor gasto (Desafío)
+'''
 
 #manejo de errores
 def this_fails(num1, num2):

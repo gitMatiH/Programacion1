@@ -1,4 +1,11 @@
 ##Ej2
+'''
+Diseñar un algoritmo que permita:
+Calcular el promedio semanal de gastos en un mes, ingresando como datos:
+- Semana número
+- Gasto semanal
+El proceso termina cuando semana número es =5
+'''
 
 from decimal import Decimal
 
