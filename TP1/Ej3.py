@@ -1,6 +1,3 @@
-# Convertir longitudes de millas a Km. y de pulgadas a cm., si:
-# 1 milla = 1.60935 Km.
-# 1 pulgada = 2.534 cm.
 
 eleccion = input("ingrese pulgadas (p) o millas (m):\n")
 if not(eleccion == "p" or eleccion == "m"): #equiv: eleccion != "p" and eleccion != "m"
