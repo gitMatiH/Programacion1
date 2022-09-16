@@ -1,4 +1,5 @@
 
+
 edad_pers1 = int(input("Ingrese la edad de la primer persona:"))
 edad_pers2 = int(input("Ingrese la edad de la segunda persona:"))
 
