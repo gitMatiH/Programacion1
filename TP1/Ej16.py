@@ -1,7 +1,4 @@
-'''
-Ingresar dos números y sin resolver la multiplicación mostrar
-una leyenda según el producto sea negativo, positivo o cero.
-'''
+
 from decimal import Decimal
 
 print("Ingrese dos números en formato ...xxx.xxx... o entero:\n")
