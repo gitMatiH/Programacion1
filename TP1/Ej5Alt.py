@@ -1,3 +1,4 @@
+
 numero = int(input("ingrese numero\n"))
 i = 1
 
