@@ -1,3 +1,7 @@
+'''
+Ingresar dos números y sin resolver la multiplicación mostrar
+una leyenda según el producto sea negativo, positivo o cero.
+'''
 
 from decimal import Decimal
 

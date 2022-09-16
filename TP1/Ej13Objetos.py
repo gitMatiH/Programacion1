@@ -1,4 +1,9 @@
-
+'''
+El usuario deberá pensar en uno de los siguientes personajes: Lio Messi, Mauricio
+Macri y Mirtha Legrand. El programa mediante algunas preguntas convenientes
+(edad, sexo, ocupación, etc.) deberá mostrar de que personaje se trata. Ejemplo: si
+es hombre y deportista tendrá que decir Lio Messi
+'''
 
 class Personaje:
 	def __init__(self, nombre, edad, ocupacion):

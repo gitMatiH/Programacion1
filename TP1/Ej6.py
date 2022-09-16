@@ -1,3 +1,7 @@
+'''
+Ingresar un número. Si es positivo, calcular su raíz cuadrada, si es negativo mostrar
+su cuadrado y si es cero mostrar “Error. Ha ingresado un valor nulo”.
+'''
 
 numero = int(input("Ingresar un número entero no nulo:"))
 

@@ -1,4 +1,7 @@
-
+'''
+Ingresar las edades de dos personas. Si una de ellas es mayor de edad y la otra menor
+de edad, calcular y mostrar su promedio. En caso contrario mostrar las dos edades.
+'''
 
 edad_pers1 = int(input("Ingrese la edad de la primer persona:"))
 edad_pers2 = int(input("Ingrese la edad de la segunda persona:"))

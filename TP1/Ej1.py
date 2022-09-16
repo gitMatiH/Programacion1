@@ -1,3 +1,7 @@
+'''
+Calcular el sueldo de una persona, conociendo la cantidad
+de horas que trabaja en el mes y el valor de la hora.
+'''
 
 horas = int(input("ingrese cantidad de horas trabajadas en el mes:\n"))
 
