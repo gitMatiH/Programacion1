@@ -1,4 +1,5 @@
 
+
 class Personaje:
 	def __init__(self, nombre, edad, ocupacion):
 		self.nombre = nombre
