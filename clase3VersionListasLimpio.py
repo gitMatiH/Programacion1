@@ -31,6 +31,38 @@ def SeguirIngresando():
 
 while  SeguirIngresando() == True:  # ==True es redundante, es para legibilidad
     descripciones, gastos = IngresarGasto(descripciones, gastos)
-libro_cuentas = dict(zip(descripciones, gastos))
+
+### Opciones: Diccionario, Lista de Tuplas, Lista de Listas
+
+##Diccionario (key:value)
+#libro_cuentas = dict(zip(descripciones, gastos))
+#print(libro_cuentas)
+
+##Lista de tuplas
+#libro_cuentas = list(zip(descripciones, gastos))
+#print(libro_cuentas)
+
+##Lista de listas (hay manera mas directa?)
+libro_cuentas = []
+for i in range(0, len(gastos)):
+    libro_cuentas.append([descripciones[i],gastos[i]])
 print(libro_cuentas)
 
+###
+
+## ahora procesamos sobre la estructura (de datos, ADT) libro_cuentas:
+#precondición: libro_cuentas != None
+mayor = libro_cuentas[0]
+menor = libro_cuentas[0]
+supera = -1
+for i in range(0, len(libro_cuentas)):
+    if libro_cuentas[i][1] >= mayor[1]:
+        supera = supera +1
+        mayor = libro_cuentas[i]    # tb podríamos implementar una lista de iguales actuales, que se reinicia cada vez que supera al mayor
+    elif libro_cuentas[i][1] <= menor[1]:
+        menor = libro_cuentas[i]
+print("Mayor gasto:")
+print(mayor)
+print("Mayor actualizado", supera,"veces")
+print("Menor gasto")
+print(menor)
