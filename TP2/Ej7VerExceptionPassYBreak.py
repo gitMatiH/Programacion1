@@ -1,16 +1,3 @@
-'''
-Leer dos números, mostrar el siguiente menú
-pudiendo seleccionar alguna opción y
-repetir esta operación hasta que seleccione 5.
-
-Menú principal
-1. Sumar
-2. Restar
-3. Multiplicar
-4. Dividir
-5. Salir
-Seleccione una opción:
-'''
 
 '''
 def this_fails():
