@@ -78,11 +78,6 @@ https://www.programiz.com/python-programming/online-compiler/ (intérprete web d
 https://www.programiz.com/c-programming/online-compiler/ (compilador web del lenguaje C)<br>
 </p>
 
-<h2>Recursion | Inside Code</h2>
-<p>https://www.udemy.com/course/learn-recursion</p>
-<h2>Time and space complexity analysis (big-O notation) | Inside Code</h2>
-<p>https://www.udemy.com/course/complexity-analysis</p>
-
 <h2>Varios</h2>
 Practical Algorithms and Data Structures<br>
 https://bradfieldcs.com/algos/<br>
@@ -99,3 +94,8 @@ Foundations of Computer Science (C version) | Alfred Aho, Jeffrey Ullman<br>
 http://infolab.stanford.edu/~ullman/focs.html<br>
 Structure and Interpretation of Computer Programs | Harold Abelson, Gerald Sussman | Interactive Version<br>
 https://xuanji.appspot.com/isicp/index.html<br>
+
+<h2>Recursion | Inside Code</h2>
+<p>https://www.udemy.com/course/learn-recursion</p>
+<h2>Time and space complexity analysis (big-O notation) | Inside Code</h2>
+<p>https://www.udemy.com/course/complexity-analysis</p>
