@@ -1,4 +1,5 @@
 
+
 precio_minuto_local			= float(0.25)
 precio_minuto_interurbano	= float(0.40)
 precio_minuto_internacional	= float(1.05)
