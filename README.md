@@ -77,6 +77,7 @@ https://visualgo.net/en (Otro de Visualización de Algoritmos)<br>
 https://www.programiz.com/python-programming/online-compiler/ (intérprete web del lenguaje Python)<br>
 https://www.programiz.com/c-programming/online-compiler/ (compilador web del lenguaje C)<br>
 https://www.matematicainteractivacr.com/<br>
+https://sites.google.com/view/waltermoraitcr/<br>
 </p>
 
 <h2>Varios</h2>
