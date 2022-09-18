@@ -98,6 +98,7 @@ Structure and Interpretation of Computer Programs | Harold Abelson, Gerald Sussm
 https://xuanji.appspot.com/isicp/index.html<br>
 The Linux Command Line | William Shotts <br>
 https://linuxcommand.org/ <br>
+https://linuxcommand.org/tlcl.php <br>
 Linux From Scratch | Gerard Beekmans <br>
 https://www.linuxfromscratch.org/<br>
 
