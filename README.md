@@ -96,6 +96,8 @@ Foundations of Computer Science (C version) | Alfred Aho, Jeffrey Ullman<br>
 http://infolab.stanford.edu/~ullman/focs.html<br>
 Structure and Interpretation of Computer Programs | Harold Abelson, Gerald Sussman | Interactive Version<br>
 https://xuanji.appspot.com/isicp/index.html<br>
+Linux from Scratch <br>
+https://www.linuxfromscratch.org/<br>
 
 <h2>Recursion | Inside Code</h2>
 <p>https://www.udemy.com/course/learn-recursion</p>
