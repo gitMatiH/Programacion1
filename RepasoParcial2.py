@@ -86,7 +86,7 @@ while numero_ticket != 0 and cantidad_tickets != 20:
             print("precio con descuento: ", precio_con_descuento)
             monto_dia = monto_dia + precio_con_descuento
         else:
-            monto_dia = monto_dia + cant_galletitasCoco * cant_galletitasCoco
+            monto_dia = monto_dia + cant_galletitasCoco * precio_galletitasCoco
 
     ## bloque de ingreso de datos
     numero_ticket = int(input("Ingrese el número de ticket: "))
