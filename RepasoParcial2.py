@@ -55,7 +55,7 @@ if numero_ticket != 0:
 ############
 
 
-while numero_ticket != 0 and cantidad_tickets != 20:
+while numero_ticket != 0 and cantidad_tickets < 20:
     cantidad_tickets = cantidad_tickets + 1
     if producto == 'A':
         cant_alfajorTriple = cant_alfajorTriple + cant_producto
