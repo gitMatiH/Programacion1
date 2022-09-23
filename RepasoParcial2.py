@@ -80,8 +80,8 @@ while numero_ticket != 0 and cantidad_tickets != 20:
             monto_dia = monto_dia + cant_conitoDDL * precio_conitoDDL
     elif producto == 'G':
         cant_galletitasCoco = cant_galletitasCoco + cant_producto
-        if cant_galletitasCoco * cant_galletitasCoco > int(170):
-            monto = cant_galletitasCoco * cant_galletitasCoco
+        if cant_galletitasCoco * precio_galletitasCoco > int(170):
+            monto = cant_galletitasCoco * precio_galletitasCoco
             precio_con_descuento = monto - 5*(monto)/100
             print("precio con descuento: ", precio_con_descuento)
             monto_dia = monto_dia + precio_con_descuento
