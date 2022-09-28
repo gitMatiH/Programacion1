@@ -59,8 +59,8 @@ while numero_ticket != 0 and cantidad_tickets < 20:
     cantidad_tickets = cantidad_tickets + 1
     if producto == 'A':
         cant_alfajorTriple = cant_alfajorTriple + cant_producto
-        if cant_alfajorTriple * precio_alfajorTriple > int(170):
-            monto = cant_alfajorTriple * precio_alfajorTriple
+        if cant_producto * precio_alfajorTriple > int(170):
+            monto = cant_producto * precio_alfajorTriple
             #hacer descuento
             ## cant_alfajorTriple * precio_alfajorTriple --- 100
             ##                    x                      --- 5
@@ -68,25 +68,25 @@ while numero_ticket != 0 and cantidad_tickets < 20:
             print("precio con descuento: ", precio_con_descuento)
             monto_dia = monto_dia + precio_con_descuento
         else:
-            monto_dia = monto_dia + cant_alfajorTriple * precio_alfajorTriple
+            monto_dia = monto_dia + cant_producto * precio_alfajorTriple
     elif producto == 'C':
         cant_conitoDDL = cant_conitoDDL + cant_producto
-        if cant_conitoDDL * precio_conitoDDL > int(170):
-            monto = cant_conitoDDL * precio_conitoDDL
+        if cant_producto * precio_conitoDDL > int(170):
+            monto = cant_producto * precio_conitoDDL
             precio_con_descuento = monto - 5*(monto)/100
             print("precio con descuento: ", precio_con_descuento)
             monto_dia = monto_dia + precio_con_descuento
         else:
-            monto_dia = monto_dia + cant_conitoDDL * precio_conitoDDL
+            monto_dia = monto_dia + cant_producto * precio_conitoDDL
     elif producto == 'G':
         cant_galletitasCoco = cant_galletitasCoco + cant_producto
-        if cant_galletitasCoco * precio_galletitasCoco > int(170):
-            monto = cant_galletitasCoco * precio_galletitasCoco
+        if cant_producto * precio_galletitasCoco > int(170):
+            monto = cant_producto * precio_galletitasCoco
             precio_con_descuento = monto - 5*(monto)/100
             print("precio con descuento: ", precio_con_descuento)
             monto_dia = monto_dia + precio_con_descuento
         else:
-            monto_dia = monto_dia + cant_galletitasCoco * precio_galletitasCoco
+            monto_dia = monto_dia + cant_producto * precio_galletitasCoco
 
     ## bloque de ingreso de datos
     numero_ticket = int(input("Ingrese el número de ticket: "))
