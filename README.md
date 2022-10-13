@@ -72,6 +72,7 @@ https://www.youtube.com/playlist?list=PLzMcBGfZo4-mFu00qxl0a67RhjjZj3jXm
 <p>
 https://www.geeksforgeeks.org/ (general)<br>
 https://realpython.com/ (particular Python)<br>
+https://realpython.com/c-for-python-programmers/<br>
 https://docs.python-guide.org/ (guía de Python en forma de libro)<br>
 https://python101.pythonlibrary.org/ (otra guía de Python en forma de libro)<br>
 https://www.w3schools.com/python/default.asp (Python interactivo)<br>
