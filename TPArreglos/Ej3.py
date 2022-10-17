@@ -29,6 +29,10 @@ import random
 ##print(lista3)
 ##print()
 
+'''
+Todo lo que sigue estoy pensandolo en voz alta no darle bola
+'''
+
 print("El ejercicio interpretado como concatenación de listas:")
 lista1 = []
 for i in range(0,15):
