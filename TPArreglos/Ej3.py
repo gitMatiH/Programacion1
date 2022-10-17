@@ -31,6 +31,8 @@ import random
 
 '''
 Todo lo que sigue estoy pensandolo en voz alta no darle bola
+recomiendo leer:
+https://stackoverflow.com/questions/2612802/how-do-i-clone-a-list-so-that-it-doesnt-change-unexpectedly-after-assignment
 '''
 
 print("El ejercicio interpretado como concatenación de listas:")
