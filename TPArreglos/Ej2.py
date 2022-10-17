@@ -68,7 +68,7 @@ while ind_impar <= len(arreglo)-1:
 print()
 indice = 1
 while indice <= len(arreglo)-1:
-    if indice%2!=0 or indice == 0:
+    if indice%2!=0:
         print(arreglo[indice])
     indice = indice + 1
 
@@ -83,7 +83,7 @@ i = 0
 sumatoria_pares = 0     # neutro para la suma
 print(arreglo)
 while i <= len(arreglo)-1:
-    if i%2 == 0 or i == 0:
+    if i%2 == 0:
         print(arreglo[i])
         if not(i+1 == len(arreglo)-1 or i+1 == len(arreglo)): #así no imprime el último +, se fija si está en el ultimo o anteultimo
             print('+')
