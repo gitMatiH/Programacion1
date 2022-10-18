@@ -41,3 +41,9 @@ while i < len(lista):
             pos = pos - 1
     i = i + 1
 print(ranking)
+
+## Errores
+# con un test me dio:
+# [94, 93, 90, 90, 77, 52, 38, 32, 4, 46]
+# lista de entrada fue:
+# [38, 32, 4, 46, 39, 10, 72, 71, 33, 86, 76, 21, 94, 62, 90, 47, 93, 45, 90, 52, 46, 33, 5, 2, 24, 77]
