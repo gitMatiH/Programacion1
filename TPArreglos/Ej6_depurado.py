@@ -4,7 +4,7 @@ Se pide generar un programa que emita un ranking con
 los 10 números más grandes.
 '''
 ## EN CONSTRUCCION
-
+## aca iria el bien resuelto
 
 import random
 
