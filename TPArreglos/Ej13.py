@@ -12,10 +12,24 @@ Hallar y mostrar:
 '''
 import random
 
-#n = random.randint(1,11)
-n = 8
-temperaturas = [24, 31, 22, 54, 12, 5, 6, 16]
-volumenes = [12, 56, 34, 16, 34, 58, 1, 45]
+n = random.randint(1,11)
+
+#temperaturas = [24, 31, 22, 54, 12, 5, 6, 16]
+temperaturas = [] 
+for i in range(0,n):
+    temperaturas.append(random.randint(0, 100))
+print("Longitud de la lista temperaturas generada y llenada en forma aleatoria: ", len(temperaturas))
+print("La lista temperaturas:")
+print(temperaturas)
+
+#volumenes = [12, 56, 34, 16, 34, 58, 1, 45]
+volumenes = []
+for i in range(0,n):
+    volumenes.append(random.randint(-100, 100))
+print("Longitud de la volumenes generada y llenada en forma aleatoria: ", len(volumenes))
+print("La lista volumenes:")
+print(volumenes)
+
 
 t_max = temperaturas[0]
 pos_t_max = 1
