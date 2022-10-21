@@ -9,6 +9,13 @@ entre los dos arreglos.
 #todos los elementos de la segunda lista
 #... o dará lo mismo?
 
+## esta version, que es bastante distinta a la otra alternativa del Ej7,
+## aprovecha el hecho de que estén ordenadas ambas listas, para hacer una
+## búsqueda mas rápida. Corta cuando una de las listas termina ya que, por
+## la condición de orden, no es posible que se repita otro elemento siguiente
+## en la lista que no se terminó todavía.
+## ¿El algoritmo guarda repetidos o los desecha?
+
 import random
 
 #para test sin random
