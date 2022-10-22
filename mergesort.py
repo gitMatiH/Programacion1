@@ -1,4 +1,5 @@
 #Implementación Mergesort
+# todavía está buggeado
 
 def  mergeSort(l):
     def mergeSortRec(l, i, j):
