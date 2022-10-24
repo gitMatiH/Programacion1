@@ -26,6 +26,10 @@ https://cli.github.com/manual/ <br>
 https://cli.github.com/manual/gh_auth_login <br>
 https://cli.github.com/manual/gh_repo_create <br>
 </p>
+<p>
+Cómo hacer tu primer pull request en GitHub | Fernando Cardellino<br>
+https://www.freecodecamp.org/espanol/news/como-hacer-tu-primer-pull-request-en-github/<br>
+</p>
 
 <h2>Instalar Python | Básico</h2>
 <p>
