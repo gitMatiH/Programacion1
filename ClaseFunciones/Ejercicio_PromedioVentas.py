@@ -19,7 +19,8 @@ def menor1(valores, meses):
         if minimo>valores[i]:
             minimo=valores[i]
             posicion=i
-    return meses[posicion]        
+    return meses[posicion]
+	## poniendo lo meses en un arreglo ordenado me ahorra la lógica adicional:
     '''if i==0:
         return "Enero"
     elif i==1:
