@@ -3,9 +3,9 @@ Escribir las funciones necesarias para que el siguiente
 código funcione:
 
 
-valor1 = int(input())
-valor2 = int(input())
-operacion = input()
+valor1 = ingreso()
+valor2 = ingreso()
+operacion = ingreso()
 if operacion == "suma":
     print("Resultado", suma(valor1, valor2))
 elif operacion == "resta":
