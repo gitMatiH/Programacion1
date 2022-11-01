@@ -32,7 +32,7 @@ print(arreglo)
 
 
 
-###para test sin random
+###para test random
 ##lista = []
 ##n = 10 #random.randint(10, 20)
 ##for i in range(0,n):
