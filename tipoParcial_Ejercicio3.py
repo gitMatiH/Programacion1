@@ -87,7 +87,7 @@ def cantidadMasculinosMenorEdad(edades, generos):
 
 def nombresMasculinosMenorEdad(nombres, edades, generos):
     ##procesa
-    minimo = edadMinimaMasculino(edades, generos)
+    minimo = edadMinimaMasculino(edades, generos)   #el problema es que acopla esta función a la otra
     nombres_menores = []
     for i in range(0, len(nombres)):
         if edades[i] == minimo and generos[i] == 'M':
@@ -140,7 +140,10 @@ promedio_edades_femenino = promedioEdadesFemenino(edades, generos)
 print("El promedio de edades femenino es: ", promedio_edades_femenino)
 
 edad_minima_masculino = edadMinimaMasculino(edades, generos)
-print("La edad mínima de los participantes masculinos es: ", edad_minima_masculino)
+if edad_minima_masculino != -1:
+    print("La edad mínima de los participantes masculinos es: ", edad_minima_masculino)
+elif edad_minima_masculino == -1:
+    print("No hubo participantes masculinos")
 
 cant_mayores = cantidadMayores(categorias)
 print("La cantidad de participantes de la categoría mayores es: ", cant_mayores)
@@ -148,6 +151,10 @@ print("La cantidad de participantes de la categoría mayores es: ", cant_mayores
 cantidad_masculinos_menor_edad = cantidadMasculinosMenorEdad(edades, generos)
 print("La cantidad de participantes masculinos que tienen la menor edad es de: ", cantidad_masculinos_menor_edad)
 
-nombres_masculinos_menor_edad = nombresMasculinosMenorEdad(nombres, edades, generos)
-print("Los nombres de los participantes masculinos de menor edad son:")
-print(nombres_masculinos_menor_edad)
+edad_minima_masculino = edadMinimaMasculino(edades, generos)
+if edad_minima_masculino != -1:
+    nombres_masculinos_menor_edad = nombresMasculinosMenorEdad(nombres, edades, generos)
+    print("Los nombres de los participantes masculinos de menor edad son:")
+    print(nombres_masculinos_menor_edad)
+elif edad_minima_masculino == -1:
+    print("No hubo participantes masculinos")
