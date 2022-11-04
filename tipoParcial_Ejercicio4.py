@@ -25,11 +25,11 @@ def promedio(arreglo):
     acumulador = 0
     cantidad= len(arreglo)
     i=0
-    while (condicion):
+    while i < cantidad:
         #procesa
 
         #actualiza cierta cosa
-        
+        i=i+1
     return promedio
 
 def menoresAPromedio(promedio, array):
