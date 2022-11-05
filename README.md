@@ -92,6 +92,7 @@ https://www.programiz.com/python-programming/online-compiler/ (intérprete web d
 https://www.programiz.com/c-programming/online-compiler/ (compilador web del lenguaje C)<br>
 https://www.matematicainteractivacr.com/<br>
 https://sites.google.com/view/waltermoraitcr/<br>
+https://www.sagemath.org/<br>
 </p>
 
 <h2>Varios</h2>
