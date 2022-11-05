@@ -26,3 +26,5 @@ p1=int(input("Primera posicion"))
 p2=int(input("Segunda posicion"))
 intercambiar(datos, p1,p2) 
 print (datos)
+
+##credito a las profes
