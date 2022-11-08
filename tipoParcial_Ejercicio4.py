@@ -27,14 +27,27 @@ def promedio(arreglo):
     i=0
     while i < cantidad:
         #procesa
-
+        acumulador = acumulador + arreglo[i]
         #actualiza cierta cosa
         i=i+1
+    if i != 0:
+        promedio = acumulador/i
     return promedio
 
-def menoresAPromedio(promedio, array):
+def menoresAPromedio(promedio, arreglo):
     menores = []
-    return menores
+    pos_menores = []
+    i = 0
+    for i in range(0, len(arreglo)):
+        if arreglo[i]==promedio:
+            pos_menores.append(i+1)
+            menores.append(arreglo[i])
+        elif arreglo[i]<promedio:
+            menores = []
+            pos_menores = []
+            pos_menores.append(i+1)
+            menores.append(arreglo[i])
+    return pos_menores, menores
 
 datos = []
 cantidad = int(input("Cuantos elementos: "))
@@ -49,3 +62,30 @@ intercambiar(datos, p1, p2)
 print(datos)
 
 prom = promedio(datos)
+print("El promedio de los elementos del array es: ", prom)
+
+pos_menores, menores = menoresAPromedio(prom, datos)
+print("Los menores y sus posiciones")
+print("menores:    ", menores)
+print("posiciones: ", pos_menores)
+
+
+'''
+## Test
+
+Cuantos elementos: 6
+Ingrese elemento: 1
+Ingrese elemento: 2
+Ingrese elemento: 1
+Ingrese elemento: 1
+Ingrese elemento: 3
+Ingrese elemento: 4
+[1, 2, 1, 1, 3, 4]
+indice primer num: 1
+indice segundo num: 5
+[1, 4, 1, 1, 3, 2]
+El promedio de los elementos del array es:  2.0
+Los menores y sus posiciones
+menores:     [1, 2]
+posiciones:  [4, 6]
+'''
