@@ -44,7 +44,28 @@ def cargar_presion(indice_dia, presiones_semana):
         pres = float(input("Ingrese la presión del día: "))
     presiones_semana[indice_dia] = pres
 
+def dia_max_temp(temperaturas_semana):
+    dia = 0
+    indice_dia = 0
+    max_temp = temperaturas_semana[dia]
+    for indice_dia in range(0, len(temperaturas_semana)):
+        if temperaturas_semana[indice_dia]>max_temp:
+            max_temp = temperaturas_semana[indice_dia]
+            dia = indice_dia
+    return dia, max_temp
 
+def promedio_presion(indice_dia_a, indice_dia_b, presiones_semana):
+    promedio = (presiones_semana[indice_dia_a] + presiones_semana[indice_dia_b])/2
+    return promedio
+
+def dia_menor_pres(temperaturas_semana, presiones_semana):
+    menor = presiones_semana[0]
+    indice_menor = 0
+    for i in range(0, len(presiones_semana)):
+        if presiones_semana[i]<menor:
+            menor = presiones_semana[i]
+            indice_menor = i
+    return temperaturas_semana[indice_menor], indice_menor
 
 ## def cargar_mas
 def cargar_mas():
@@ -59,13 +80,15 @@ def cargar_mas():
     return sal
 
 indice_dia = 0
-temperaturas_semana = []
-presiones_semana = []
+dias_semana = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
+temperaturas_semana = [20,23,45,21,18,46,44]
+presiones_semana = [456,251,555,645,256,785,123]
+'''
 while indice_dia < 7:
-    temperaturas_semana.append('')
-    presiones_semana.append('')
+    temperaturas_semana.append(0)
+    presiones_semana.append(1)
     indice_dia+=1
-
+'''
 print(temperaturas_semana)
 print(presiones_semana)
 
@@ -80,3 +103,15 @@ while rta == True:
 
 print(temperaturas_semana)
 print(presiones_semana)
+
+indice_dia, temp = dia_max_temp(temperaturas_semana)
+print("La temperatura máxima de la semana fue el día", indice_dia+1,"y llegó a ", temp,"grados celsius")
+
+dia_a = int(input("Ingrese el primer dia para el promedio de presiones, 1-Lun ... 7-Dom: "))-1
+dia_b = int(input("Ingrese el segundo dia para el promedio de presiones, 1-Lun ... 7-Dom: "))-1
+promedio = promedio_presion(dia_a, dia_b, presiones_semana)
+print("El promedio de presión entre el día", dias_semana[dia_a],"y el día", dias_semana[dia_b], "fue de:", promedio)
+
+temp, dia = dia_menor_pres(temperaturas_semana, presiones_semana)
+print("La temperatura del día de menor presión fue de:",temp,"grados celsius. Eso pasó el día", dias_semana[dia])
+
