@@ -93,13 +93,14 @@ def ordenarTupla(arreglo1, arreglo2, arreglo3):
         swap(pos_menor,j,arreglo2)
         swap(pos_menor,j,arreglo3)
 
+'''
 #test hardcodeado
 edades      =   [23, 45, 22, 12, 33, 45, 54]
 respuestas  =   ['C','S','C','S','S','C','C']
 sucursales  =   ['B','C','C','C','C','B','B']
-
-
 '''
+
+## comentar este bloque si se quiere usar el test
 edades = []
 respuestas = []
 sucursales = []
@@ -114,7 +115,8 @@ while edad != 0:
     sucursales.append(suc)
 
     edad = ingresarEdad()
-'''
+## comentar este bloque si se quiere usar el test
+
 
 if len(sucursales) !=0:
     suc_boe, suc_cab = cantEncuestados(sucursales)
@@ -139,3 +141,40 @@ if len(edades) != 0:
     print("edades:",edades)
     print("respuestas:",respuestas)
     print("sucursales:",sucursales)
+
+###############################################
+
+'''
+salida del programa para test interactivo:
+############################################
+Ingrese la edad del encuestado: 23
+Ingrese la respuesta a la encuesta, C para Campeón y S para Subcampeón: C
+Ingrese la sucursal donde fue encuestado, B para Boedo y C para Caballito: B
+Ingrese la edad del encuestado: 45
+Ingrese la respuesta a la encuesta, C para Campeón y S para Subcampeón: S
+Ingrese la sucursal donde fue encuestado, B para Boedo y C para Caballito: C
+Ingrese la edad del encuestado: 22
+Ingrese la respuesta a la encuesta, C para Campeón y S para Subcampeón: C
+Ingrese la sucursal donde fue encuestado, B para Boedo y C para Caballito: C
+Ingrese la edad del encuestado: 12
+Ingrese la respuesta a la encuesta, C para Campeón y S para Subcampeón: S
+Ingrese la sucursal donde fue encuestado, B para Boedo y C para Caballito: C
+Ingrese la edad del encuestado: 33
+Ingrese la respuesta a la encuesta, C para Campeón y S para Subcampeón: S
+Ingrese la sucursal donde fue encuestado, B para Boedo y C para Caballito: C
+Ingrese la edad del encuestado: 45
+Ingrese la respuesta a la encuesta, C para Campeón y S para Subcampeón: C
+Ingrese la sucursal donde fue encuestado, B para Boedo y C para Caballito: B
+Ingrese la edad del encuestado: 54
+Ingrese la respuesta a la encuesta, C para Campeón y S para Subcampeón: C
+Ingrese la sucursal donde fue encuestado, B para Boedo y C para Caballito: B
+Ingrese la edad del encuestado: 0
+La sucursal con mayor cantidad de encuestados fue Caballito.
+La edad máxima de un encuestado fue de 54
+y se lo encuestó en la sucursal de Boedo
+Tupla ordenada: 
+edades: [12, 22, 23, 33, 45, 45, 54]
+respuestas: ['S', 'C', 'C', 'S', 'S', 'C', 'C']
+sucursales: ['C', 'C', 'B', 'C', 'C', 'B', 'B']
+###########################
+'''
