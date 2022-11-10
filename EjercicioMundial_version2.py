@@ -1,7 +1,7 @@
+#CODIGO POR JULIO CARDENAS
+
 # Declaración de funciones
 
-
-#CODIGO POR JULIO CARDENAS 
 def calcular_maximo(a):
     if len(a) > 0:
         maximo = a[0]
@@ -11,15 +11,12 @@ def calcular_maximo(a):
         return maximo
     elif len(a) == 0:
         return -1
-        
-
 
 def calcular_porcentaje(len_suc,total):
     if total != 0:
         return (len_suc/total)*100
     elif total <=0:
         return -1
-
 
 # Código principal
 
