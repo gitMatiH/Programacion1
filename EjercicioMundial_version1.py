@@ -7,7 +7,6 @@ def intercambiar(indice_a, indice_b, arreglo):
     arreglo[indice_b] = aux
 
 def ordenar(arreglo):
-    
     for j in range(0, len(arreglo)):
         i = j
         pos_menor = i
