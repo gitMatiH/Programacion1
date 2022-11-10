@@ -1,5 +1,24 @@
 #CODIGO POR JULIO CARDENAS
 
+
+'''
+Se quiere llevar una estadística de predicciones para el mundial, para
+lo cual se consultan en dos sucursales de venta de electrodomésticos.
+Boedo y Caballito
+A los encuestados se les pregunta la edad y si Argentina resulta
+campeón o subcampeón
+Se carga información hasta que la edad ingresada sea 0.
+Se debe cargar la información de la edad para cada sucursal.
+Calcular la cantidad de encuestados en cada sucursal y determinar
+cual sucursal tuvo mayor cantidad de encuestados.
+Calcular la edad máxima de encuestados y determinar a qué sucursal
+corresponde.
+La sucursal se ingresa B para Boedo y C para caballito.
+Ordenar el arreglo de mayor a menor.
+Validar que la edad ingresada no sea menor a 0.
+C para campeón y S para subcampeón
+'''
+
 def intercambiar(indice_a, indice_b, arreglo):
     # intercambia elementos según los índices indicados
     aux=arreglo[indice_a]
