@@ -1,11 +1,10 @@
-#CODIGO POR JULIO CARDENAS 
+#CODIGO POR JULIO CARDENAS
+
 def intercambiar(indice_a, indice_b, arreglo):
     # intercambia elementos según los índices indicados
     aux=arreglo[indice_a]
     arreglo[indice_a] = arreglo[indice_b]
     arreglo[indice_b] = aux
-
-
 
 def ordenar(arreglo):
     
@@ -20,9 +19,6 @@ def ordenar(arreglo):
                 menor = arreglo[i]
             i = i+1
         intercambiar(pos_menor,j,arreglo)
-        
-
-
 
 def calcular_maximo(a):
     if len(a) > 0:
@@ -33,15 +29,12 @@ def calcular_maximo(a):
         return maximo
     elif len(a) == 0:
         return -1
-        
-
 
 def calcular_porcentaje(len_suc,total):
     if total != 0:
         return (len_suc/total)*100
     elif total <=0:
         return -1
-
 
 # Código principal
 
