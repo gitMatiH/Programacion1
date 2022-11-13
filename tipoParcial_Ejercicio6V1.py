@@ -42,11 +42,13 @@ def eliminar_menores_promedio(array, promedio):
             for j in range(j,n-1):
                 array[j]=array[j+1]
             n=n-1
-            array = array[:n]   # para eliminar la ultima posicion de la lista
+            #array = array[:n]   # para eliminar la ultima posicion de la lista
+            #alternativa a list slicing
+            array.pop(n)
             #print(array)   # para ver que hace paso a paso
         else:
             i=i+1
-    return array
+    #return array
 
 
 def promedio(array):
@@ -60,6 +62,23 @@ def promedio(array):
         return promedio
     else:
         return "null"
+
+def agrega_dobles(array):
+    i = 0
+    #print("len(array)",len(array))
+    len_array_inicial = len(array)
+    while i<2*len_array_inicial:
+        array.append(array[len(array)-1])
+        #print("len(array)",len(array))
+        j=len(array)-1
+        #print(array)
+        while j>i+1:
+            array[j]=array[j-1]
+            j = j-1
+            #print(array)
+        array[i+1]=array[i]*2
+        #print(array)
+        i = i+2
 
 '''
 ### Comentar para test
@@ -84,5 +103,9 @@ print("Ranking menores:",ranking)
 
 prom = promedio(numeros)
 print("promedio", prom)
-numeros = eliminar_menores_promedio(numeros, prom)
+eliminar_menores_promedio(numeros, prom)
+#numeros = eliminar_menores_promedio(numeros, prom)
+print(numeros)
+
+agrega_dobles(numeros)
 print(numeros)
