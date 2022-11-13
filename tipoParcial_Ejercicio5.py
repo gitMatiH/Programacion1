@@ -66,7 +66,7 @@ def bubbleSort(arreglo1,arreglo2,arreglo3,arreglo4):
                 intercambiar(j,j+1,arreglo3)
                 intercambiar(j,j+1,arreglo4)
             j = j+1
-    i = i+1
+        i = i+1
 
 def intercambiar(i,j,arreglo):
     if i>-1 and i<len(arreglo) and j>-1 and j<len(arreglo):
