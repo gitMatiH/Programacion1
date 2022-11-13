@@ -33,7 +33,35 @@ def ranking_2(array):
             i = i+1
         return menor, menor2
 
+def eliminar_menores_promedio(array, promedio):
+    i=0
+    n=len(array)
+    while i < n:
+        if array[i]<promedio:
+            j=i
+            for j in range(j,n-1):
+                array[j]=array[j+1]
+            n=n-1
+            array = array[:n]   # para eliminar la ultima posicion de la lista
+            #print(array)   # para ver que hace paso a paso
+        else:
+            i=i+1
+    return array
 
+
+def promedio(array):
+    n=len(array)
+    if 0<n:
+        #calcula promedio
+        sumatoria = 0
+        for i in range(0, len(array)):
+            sumatoria = sumatoria + array[i]
+        promedio = sumatoria/n
+        return promedio
+    else:
+        return "null"
+
+'''
 ### Comentar para test
 numeros = []
 
@@ -45,13 +73,16 @@ while len(numeros) < 8:
         numeros.append(numero)
 
 ### Comentar para test
-
+'''
 
 ### descomentar para test
-#numeros=[60,24,6,48,12,36,72,84]
+numeros=[60,24,6,48,12,36,72,84]
 
 ranking=ranking_2(numeros)
 print("Lista:",numeros)
 print("Ranking menores:",ranking)
 
-
+prom = promedio(numeros)
+print("promedio", prom)
+numeros = eliminar_menores_promedio(numeros, prom)
+print(numeros)
