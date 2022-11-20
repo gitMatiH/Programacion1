@@ -66,6 +66,11 @@ https://www.youtube.com/watch?v=KxvKCSwlUv8 <br>
 https://www.youtube.com/playlist?list=PLzMcBGfZo4-mFu00qxl0a67RhjjZj3jXm
 </p>
 
+<h2>Python Programming Tutorials (Computer Science) | Socratica</h2>
+<p>
+https://www.youtube.com/playlist?list=PLi01XoE8jYohWFPpC17Z-wWhPOSuh8Er-
+</p>
+
 <h2>Structuring Your Project | The Hitchhiker's Guide To Python</h2>
 <p>https://docs.python-guide.org/writing/structure/</p>
 
