@@ -1,3 +1,8 @@
+def intercambiar(i,j,arreglo):
+    if i>-1 and i<len(arreglo) and j>-1 and j<len(arreglo):
+        aux = arreglo[i]
+        arreglo[i] = arreglo[j]
+        arreglo[j] = aux
 
 def bubbleSort(arreglo):
     # ordenamos sobre el mismo arreglo
@@ -10,11 +15,7 @@ def bubbleSort(arreglo):
             j = j+1
         i = i+1
 
-def intercambiar(i,j,arreglo):
-    if i>-1 and i<len(arreglo) and j>-1 and j<len(arreglo):
-        aux = arreglo[i]
-        arreglo[i] = arreglo[j]
-        arreglo[j] = aux
+
 
 
 arreglo = [5,10,2,12,20,3,1,4,-1]

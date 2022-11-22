@@ -1,12 +1,12 @@
 #Implementación Quicksort Vers.1
 
-def quicksort(l, i, j):
+def quickSort(l, i, j):
     if len(l) == 1:
         return l
     if i < j:
         k = particion(l, i, j)
-        quicksort(l, i, k-1)
-        quicksort(l, k+1, j)
+        quickSort(l, i, k-1)
+        quickSort(l, k+1, j)
     return l
 
 def particion(l, i, j):
@@ -27,5 +27,5 @@ l = [int(item) for item in input("ingrese una lista de enteros separados por com
 print("lista a ordenar: ", l)
 i=0
 j=len(l)-1
-quicksort(l, i, j)
+quickSort(l, i, j)
 print("lista ordenada: ", l)
