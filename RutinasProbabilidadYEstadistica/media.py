@@ -1,5 +1,6 @@
 
 def media(arreglo):
+    ## precondición arreglo ordenado asc
     n = len(arreglo)
     if n%2 != 0:
         media = arreglo[int(n/2)]
@@ -13,22 +14,22 @@ def media(arreglo):
         return prom
 
 ## test
+if __name__ == '__main__':
+    lista = [100, 60, 70, 900, 100, 200, 500, 500, 503, 600, 1000, 1200]
+    print(lista)
+    lista.sort()
+    print(lista)
+    med = media(lista)
+    print(med)
 
-lista = [100, 60, 70, 900, 100, 200, 500, 500, 503, 600, 1000, 1200]
-print(lista)
-lista.sort()
-print(lista)
-med = media(lista)
-print(med)
+    print()
 
-print()
-
-lista = [100, 60, 70, 900, 200]
-print(lista)
-lista.sort()
-print(lista)
-med = media(lista)
-print(med)
+    lista = [100, 60, 70, 900, 200]
+    print(lista)
+    lista.sort()
+    print(lista)
+    med = media(lista)
+    print(med)
 
 
 

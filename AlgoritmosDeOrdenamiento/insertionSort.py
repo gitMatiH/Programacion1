@@ -9,7 +9,7 @@ def insertionSort(arreglo):
     while i < len(arreglo):
         j = i
         #inserta nuevo elemento en el subarreglo de longitud j
-        while j != 0 and arr[j] < arr[j-1]:
+        while j != 0 and arreglo[j] < arreglo[j-1]:
             intercambiar(j,j-1,arreglo)
             j = j-1
         i = i+1
