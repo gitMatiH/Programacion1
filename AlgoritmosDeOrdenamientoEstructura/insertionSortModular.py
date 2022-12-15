@@ -1,16 +1,18 @@
 from procedimientos_comunes.intercambiar import intercambiar
+from procedimientos_comunes.insertarEnOrden import insertarEnOrden
 #estamos interpretando la lista como un arreglo
 #si materializamos esta interpretación sería un "downcast"
 #pero hasta que no hacemos eso es una "simulación" de arreglo mediante listas
 
-def insertarOrden(indice_elemento, arreglo):
+'''
+def insertarEnOrden(indice_elemento, arreglo):
     #inserta en el orden correcto elemento último de un arreglo a su subarreglo ordenado
     while arreglo[indice_elemento-1]>arreglo[indice_elemento] and indice_elemento>0:
         #el i>0 es la condicion de corte si la primer condic de corte
         #no se realiza
         intercambiar(indice_elemento, indice_elemento-1, arreglo)
         indice_elemento = indice_elemento-1
-
+'''
 
 ## precondición insertionSort:
 #
@@ -27,7 +29,7 @@ def insertionSort(arreglo):
         #respeta relacion de orden y es transitiva, de inicio a fin
         #"empieza" por caso base! ordenar dos elementos, primitiva
         i = j
-        insertarOrden(i, arreglo)
+        insertarEnOrden(i, arreglo)
         j = j+1
     return(arreglo)
 
