@@ -39,6 +39,8 @@ https://styde.net/pull-request-en-github/<br>
 <p>
 [Tutorial] - How to use GitHub REST API for Beginners<br>
 https://youtu.be/OvfLavRD1Os<br>
+GET, POST, DELETE request in POSTMAN using Github's REST API<br>
+https://www.youtube.com/watch?v=fJcdSS3ztxQ<br>
 </p>
 
 <h2>Instalar Python | Básico</h2>
